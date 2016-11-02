@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811C8DAE1A4A1B970029B271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DAD1A4A1B970029B271 /* main.m */; };
+		811C8DB11A4A1B970029B271 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DB01A4A1B970029B271 /* AppDelegate.m */; };
+		811C8DB41A4A1B970029B271 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DB31A4A1B970029B271 /* ViewController.m */; };
+		811C8DB71A4A1B970029B271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811C8DB51A4A1B970029B271 /* Main.storyboard */; };
+		811C8DC81A4A1B970029B271 /* sliderGame3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DC71A4A1B970029B271 /* sliderGame3Tests.m */; };
+		811C8DD21A4A1C960029B271 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811C8DD11A4A1C960029B271 /* Images.xcassets */; };
+		811C8DE11A4A1CF80029B271 /* MathForGame.c in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DD51A4A1CF80029B271 /* MathForGame.c */; };
+		811C8DE21A4A1CF80029B271 /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DD81A4A1CF80029B271 /* UIView+Glow.m */; };
+		811C8DE31A4A1CF80029B271 /* CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DDA1A4A1CF80029B271 /* CenterView.m */; };
+		811C8DE41A4A1CF80029B271 /* arrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DDC1A4A1CF80029B271 /* arrowView.m */; };
+		811C8DE51A4A1CF80029B271 /* Boxes.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DDE1A4A1CF80029B271 /* Boxes.m */; };
+		811C8DE61A4A1CF80029B271 /* SpecialViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DE01A4A1CF80029B271 /* SpecialViews.m */; };
+		811C8DE91A4A1D030029B271 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DE81A4A1D030029B271 /* AnotherViewController.m */; };
+		811C8DEC1A4A22E40029B271 /* NavContrView.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C8DEB1A4A22E40029B271 /* NavContrView.m */; };
+		815088A01A524E9E00D0D061 /* boxesfortemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150889F1A524E9E00D0D061 /* boxesfortemp.m */; };
+		81AA0B111A533D8E006618E2 /* Launch Screen2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81AA0B101A533D8E006618E2 /* Launch Screen2.xib */; };
+		81DB85671A5B19CC0057BDF2 /* Media2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DB85661A5B19CC0057BDF2 /* Media2.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		811C8DC21A4A1B970029B271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811C8DA01A4A1B970029B271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811C8DA71A4A1B970029B271;
+			remoteInfo = sliderGame3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		811C8DA81A4A1B970029B271 /* rueBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rueBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811C8DAC1A4A1B970029B271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811C8DAD1A4A1B970029B271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		811C8DAF1A4A1B970029B271 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		811C8DB01A4A1B970029B271 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		811C8DB21A4A1B970029B271 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		811C8DB31A4A1B970029B271 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		811C8DB61A4A1B970029B271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		811C8DC11A4A1B970029B271 /* rueBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rueBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811C8DC61A4A1B970029B271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811C8DC71A4A1B970029B271 /* sliderGame3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderGame3Tests.m; sourceTree = "<group>"; };
+		811C8DD11A4A1C960029B271 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		811C8DD51A4A1CF80029B271 /* MathForGame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MathForGame.c; sourceTree = "<group>"; };
+		811C8DD61A4A1CF80029B271 /* MathForGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathForGame.h; sourceTree = "<group>"; };
+		811C8DD71A4A1CF80029B271 /* UIView+Glow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Glow.h"; sourceTree = "<group>"; };
+		811C8DD81A4A1CF80029B271 /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
+		811C8DD91A4A1CF80029B271 /* CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
+		811C8DDA1A4A1CF80029B271 /* CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
+		811C8DDB1A4A1CF80029B271 /* arrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrowView.h; sourceTree = "<group>"; };
+		811C8DDC1A4A1CF80029B271 /* arrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = arrowView.m; sourceTree = "<group>"; };
+		811C8DDD1A4A1CF80029B271 /* Boxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boxes.h; sourceTree = "<group>"; };
+		811C8DDE1A4A1CF80029B271 /* Boxes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boxes.m; sourceTree = "<group>"; };
+		811C8DDF1A4A1CF80029B271 /* SpecialViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialViews.h; sourceTree = "<group>"; };
+		811C8DE01A4A1CF80029B271 /* SpecialViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialViews.m; sourceTree = "<group>"; };
+		811C8DE71A4A1D030029B271 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		811C8DE81A4A1D030029B271 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		811C8DEA1A4A22E40029B271 /* NavContrView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavContrView.h; sourceTree = "<group>"; };
+		811C8DEB1A4A22E40029B271 /* NavContrView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavContrView.m; sourceTree = "<group>"; };
+		8150889E1A524E9E00D0D061 /* boxesfortemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boxesfortemp.h; sourceTree = "<group>"; };
+		8150889F1A524E9E00D0D061 /* boxesfortemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boxesfortemp.m; sourceTree = "<group>"; };
+		81AA0B101A533D8E006618E2 /* Launch Screen2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen2.xib"; sourceTree = "<group>"; };
+		81DB85661A5B19CC0057BDF2 /* Media2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media2.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811C8DA51A4A1B970029B271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811C8DBE1A4A1B970029B271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811C8D9F1A4A1B970029B271 = {
+			isa = PBXGroup;
+			children = (
+				811C8DAA1A4A1B970029B271 /* sliderGame3 */,
+				811C8DC41A4A1B970029B271 /* sliderGame3Tests */,
+				811C8DA91A4A1B970029B271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		811C8DA91A4A1B970029B271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811C8DA81A4A1B970029B271 /* rueBlue.app */,
+				811C8DC11A4A1B970029B271 /* rueBlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811C8DAA1A4A1B970029B271 /* sliderGame3 */ = {
+			isa = PBXGroup;
+			children = (
+				811C8DAF1A4A1B970029B271 /* AppDelegate.h */,
+				811C8DB01A4A1B970029B271 /* AppDelegate.m */,
+				811C8DD51A4A1CF80029B271 /* MathForGame.c */,
+				811C8DD61A4A1CF80029B271 /* MathForGame.h */,
+				811C8DD71A4A1CF80029B271 /* UIView+Glow.h */,
+				811C8DD81A4A1CF80029B271 /* UIView+Glow.m */,
+				811C8DD91A4A1CF80029B271 /* CenterView.h */,
+				811C8DDA1A4A1CF80029B271 /* CenterView.m */,
+				811C8DDB1A4A1CF80029B271 /* arrowView.h */,
+				811C8DDC1A4A1CF80029B271 /* arrowView.m */,
+				811C8DDD1A4A1CF80029B271 /* Boxes.h */,
+				811C8DDE1A4A1CF80029B271 /* Boxes.m */,
+				8150889E1A524E9E00D0D061 /* boxesfortemp.h */,
+				8150889F1A524E9E00D0D061 /* boxesfortemp.m */,
+				811C8DDF1A4A1CF80029B271 /* SpecialViews.h */,
+				811C8DE01A4A1CF80029B271 /* SpecialViews.m */,
+				811C8DEA1A4A22E40029B271 /* NavContrView.h */,
+				811C8DEB1A4A22E40029B271 /* NavContrView.m */,
+				811C8DB21A4A1B970029B271 /* ViewController.h */,
+				811C8DB31A4A1B970029B271 /* ViewController.m */,
+				811C8DE71A4A1D030029B271 /* AnotherViewController.h */,
+				811C8DE81A4A1D030029B271 /* AnotherViewController.m */,
+				811C8DD11A4A1C960029B271 /* Images.xcassets */,
+				81DB85661A5B19CC0057BDF2 /* Media2.xcassets */,
+				811C8DB51A4A1B970029B271 /* Main.storyboard */,
+				81AA0B101A533D8E006618E2 /* Launch Screen2.xib */,
+				811C8DAB1A4A1B970029B271 /* Supporting Files */,
+			);
+			path = sliderGame3;
+			sourceTree = "<group>";
+		};
+		811C8DAB1A4A1B970029B271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				811C8DAC1A4A1B970029B271 /* Info.plist */,
+				811C8DAD1A4A1B970029B271 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		811C8DC41A4A1B970029B271 /* sliderGame3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				811C8DC71A4A1B970029B271 /* sliderGame3Tests.m */,
+				811C8DC51A4A1B970029B271 /* Supporting Files */,
+			);
+			path = sliderGame3Tests;
+			sourceTree = "<group>";
+		};
+		811C8DC51A4A1B970029B271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				811C8DC61A4A1B970029B271 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811C8DA71A4A1B970029B271 /* rueBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811C8DCB1A4A1B970029B271 /* Build configuration list for PBXNativeTarget "rueBlue" */;
+			buildPhases = (
+				811C8DA41A4A1B970029B271 /* Sources */,
+				811C8DA51A4A1B970029B271 /* Frameworks */,
+				811C8DA61A4A1B970029B271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rueBlue;
+			productName = sliderGame3;
+			productReference = 811C8DA81A4A1B970029B271 /* rueBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		811C8DC01A4A1B970029B271 /* rueBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811C8DCE1A4A1B970029B271 /* Build configuration list for PBXNativeTarget "rueBlueTests" */;
+			buildPhases = (
+				811C8DBD1A4A1B970029B271 /* Sources */,
+				811C8DBE1A4A1B970029B271 /* Frameworks */,
+				811C8DBF1A4A1B970029B271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811C8DC31A4A1B970029B271 /* PBXTargetDependency */,
+			);
+			name = rueBlueTests;
+			productName = sliderGame3Tests;
+			productReference = 811C8DC11A4A1B970029B271 /* rueBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811C8DA01A4A1B970029B271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dumitru Mitaru-berceanu";
+				TargetAttributes = {
+					811C8DA71A4A1B970029B271 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = NNQSH89FL3;
+					};
+					811C8DC01A4A1B970029B271 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 811C8DA71A4A1B970029B271;
+					};
+				};
+			};
+			buildConfigurationList = 811C8DA31A4A1B970029B271 /* Build configuration list for PBXProject "rueBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 811C8D9F1A4A1B970029B271;
+			productRefGroup = 811C8DA91A4A1B970029B271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811C8DA71A4A1B970029B271 /* rueBlue */,
+				811C8DC01A4A1B970029B271 /* rueBlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811C8DA61A4A1B970029B271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811C8DD21A4A1C960029B271 /* Images.xcassets in Resources */,
+				81DB85671A5B19CC0057BDF2 /* Media2.xcassets in Resources */,
+				811C8DB71A4A1B970029B271 /* Main.storyboard in Resources */,
+				81AA0B111A533D8E006618E2 /* Launch Screen2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811C8DBF1A4A1B970029B271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811C8DA41A4A1B970029B271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811C8DB41A4A1B970029B271 /* ViewController.m in Sources */,
+				811C8DE31A4A1CF80029B271 /* CenterView.m in Sources */,
+				811C8DE41A4A1CF80029B271 /* arrowView.m in Sources */,
+				811C8DEC1A4A22E40029B271 /* NavContrView.m in Sources */,
+				811C8DE51A4A1CF80029B271 /* Boxes.m in Sources */,
+				811C8DE11A4A1CF80029B271 /* MathForGame.c in Sources */,
+				811C8DE21A4A1CF80029B271 /* UIView+Glow.m in Sources */,
+				815088A01A524E9E00D0D061 /* boxesfortemp.m in Sources */,
+				811C8DE91A4A1D030029B271 /* AnotherViewController.m in Sources */,
+				811C8DB11A4A1B970029B271 /* AppDelegate.m in Sources */,
+				811C8DAE1A4A1B970029B271 /* main.m in Sources */,
+				811C8DE61A4A1CF80029B271 /* SpecialViews.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811C8DBD1A4A1B970029B271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811C8DC81A4A1B970029B271 /* sliderGame3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811C8DC31A4A1B970029B271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811C8DA71A4A1B970029B271 /* rueBlue */;
+			targetProxy = 811C8DC21A4A1B970029B271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		811C8DB51A4A1B970029B271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811C8DB61A4A1B970029B271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		811C8DC91A4A1B970029B271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		811C8DCA1A4A1B970029B271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811C8DCC1A4A1B970029B271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sliderGame3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = rueBlue;
+				PROVISIONING_PROFILE = "b84d4923-f717-45fa-8b05-b2f4a4d00827";
+			};
+			name = Debug;
+		};
+		811C8DCD1A4A1B970029B271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = sliderGame3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = rueBlue;
+				PROVISIONING_PROFILE = "b84d4923-f717-45fa-8b05-b2f4a4d00827";
+			};
+			name = Release;
+		};
+		811C8DCF1A4A1B970029B271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sliderGame3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = rueBlueTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rueBlue.app/rueBlue";
+			};
+			name = Debug;
+		};
+		811C8DD01A4A1B970029B271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sliderGame3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = rueBlueTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rueBlue.app/rueBlue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		811C8DA31A4A1B970029B271 /* Build configuration list for PBXProject "rueBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811C8DC91A4A1B970029B271 /* Debug */,
+				811C8DCA1A4A1B970029B271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811C8DCB1A4A1B970029B271 /* Build configuration list for PBXNativeTarget "rueBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811C8DCC1A4A1B970029B271 /* Debug */,
+				811C8DCD1A4A1B970029B271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811C8DCE1A4A1B970029B271 /* Build configuration list for PBXNativeTarget "rueBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811C8DCF1A4A1B970029B271 /* Debug */,
+				811C8DD01A4A1B970029B271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 811C8DA01A4A1B970029B271 /* Project object */;
+}
